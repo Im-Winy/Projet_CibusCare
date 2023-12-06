@@ -1,0 +1,10 @@
+/* MAIN */
+main #vert-clair a {
+    color: #fff;
+    background-color: #30744c;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
