@@ -8,3 +8,10 @@ main #vert-clair a {
     text-decoration: none;
     margin-bottom: 10px;
 }
+
+/* SMARTPHONES */
+@media screen and (max-width:576px) {
+    #vert-clair {
+        font-size: 70%;
+    }
+}

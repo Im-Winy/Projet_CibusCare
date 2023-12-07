@@ -27,3 +27,10 @@ main #vert-clair a {
 .carousel-indicators button {
     background-color: #30744c !important;
 }
+
+/* SMARTPHONES */
+@media screen and (max-width:576px) {
+    #vert-clair {
+        font-size: 70%;
+    }
+}
