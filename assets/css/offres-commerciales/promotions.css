@@ -33,4 +33,9 @@ main #vert-clair a {
     #vert-clair {
         font-size: 70%;
     }
+
+    #carouselExampleIndicators{
+        width: 100%;
+        height: 100px;
+    }
 }
