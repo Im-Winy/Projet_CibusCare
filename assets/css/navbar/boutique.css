@@ -62,3 +62,34 @@ main .container aside .hours table td {
         font-size: 20px;
     }
 }
+
+/* TABLETTES */
+@media screen and (min-width: 577px) and (max-width: 1366px) {
+
+    main .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .mapInfo {
+        width: 100%;
+    }
+
+    main .container aside {
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+    }
+
+    main .container aside .adress .p1 {
+        font-size: 17px;
+    }
+
+    main .container aside .hours table th,
+    main .container aside .hours table td {
+        font-size: 17px;
+    }
+
+    main .container h3 {
+        font-size: 26px;
+    }
+}
