@@ -1,5 +1,64 @@
+main .container {
+    display: flex;
+    padding: 20px;
+}
+
+main .container .mapInfo {
+    border-radius: 8px;
+    padding: 10px;
+    width: 65%;
+}
+
+main .container .mapInfo iframe {
+    width: 100%;
+}
+
+main .container aside {
+    margin: 0px 0px 0px 20px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 35%;
+}
+
+main .container aside .hours table {
+    background-color: #30744c;
+    width: 100%;
+}
+
+main .container aside .hours table th,
+main .container aside .hours table td {
+    color: #fff;
+    padding-left: 15px;
+    border: 1px solid #fff;
+}
+
+/* SMARTPHONES */
 @media screen and (min-width: 360px) and (max-width:550px) {
-    iframe{
+
+    main .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .mapInfo {
         width: 100%;
+    }
+
+    main .container aside {
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+    }
+
+    main .container aside .adress .p1 {
+        font-size: 13px;
+    }
+
+    main .container aside .hours table th,
+    main .container aside .hours table td {
+        font-size: 13px;
+    }
+
+    main .container h3 {
+        font-size: 20px;
     }
 }
